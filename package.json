@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "An application to generate a list of delicious burgers you would like to devour. Allow them to append to the page with a button option to devour. When clicked, the burger will transition to the other side of the screen and display that it has been devoured.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TicTac2992/burger.git"
+  },
+  "author": "Jared Varnum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TicTac2992/burger/issues"
+  },
+  "homepage": "https://github.com/TicTac2992/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
