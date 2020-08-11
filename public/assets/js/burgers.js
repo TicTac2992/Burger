@@ -9,7 +9,7 @@ $(function() {
     };
 
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id, {
+    $.ajax("/api/burger/" + id, {
       type: "PUT",
       data: newDevouredBurger
     }).then(
@@ -27,11 +27,11 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#burgerName").val().trim(),
-      devoured: $("[name=burger]:checked").val().trim()
+      devoured: 0
     };
 
     // Send the POST request.
-    $.ajax("/api/burgers", {
+    $.ajax("/api/burger", {
       type: "POST",
       data: newBurger
     }).then(
@@ -43,3 +43,5 @@ $(function() {
     );
   });
 });
+
+console.log("Can you see me?");
