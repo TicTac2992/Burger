@@ -4,7 +4,8 @@
   "description": "An application to generate a list of delicious burgers you would like to devour. Allow them to append to the page with a button option to devour. When clicked, the burger will transition to the other side of the screen and display that it has been devoured.",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,6 @@
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
     "router": "^1.3.5"
-  }
+  },
+  "devDependencies": {}
 }
